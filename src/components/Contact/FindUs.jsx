@@ -40,9 +40,9 @@ export default function FindUs({ customClass }) {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.7522732299717!2d-2.6158324238765127!3d51.44434321530844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718dcca9bb90f1%3A0x6362faac961c913d!2sThe%20Ashville%20Steakhouse!5e0!3m2!1sen!2shu!4v1724582463064!5m2!1sen!2shu"
               height="300"
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
               title="The Ashville Steakhouse"
             ></iframe>
           </div>
