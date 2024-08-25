@@ -132,6 +132,7 @@
     justify-content: space-between;
     gap: 50px;
     margin: auto;
+    border-top: 1px solid white;
 }
 
 .pagination-buttons div {
