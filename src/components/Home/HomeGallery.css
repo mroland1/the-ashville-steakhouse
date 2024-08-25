@@ -1,0 +1,7 @@
+.homeGallery h2 {
+    display: none;
+}
+
+.homeGallery .galleryComponent {
+    border-bottom: 0
+}

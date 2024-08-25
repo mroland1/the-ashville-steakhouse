@@ -1,0 +1,103 @@
+#findUs {
+    border-bottom: 1px solid white;
+}
+#findUs h2 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+#findUs>div {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.1rem
+}
+
+#findUsContact, #findUsMap {
+    width: 50%;
+}
+
+#findUsContact {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    height: 100%;
+    align-items: center;
+}
+
+#findUsContact div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#findUsContact p {
+    padding: 10px;
+    line-height: 2rem;
+    line-break: anywhere;
+}
+
+#findUsContact a {
+    text-decoration: none;
+    color: white;
+}
+
+#findUsContact p:nth-child(2) {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+#findUsMap {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+}
+
+#findUsMap iframe{
+    width: 60%;
+    border-radius: 30px
+}
+
+@media screen and (max-width: 1280px) {
+    #findUsMap iframe {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    #findUsContact {
+        order: 2;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #findUsMap {
+        order: 1;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+        border-bottom: 1px solid white;
+    }
+    #findUs>div {
+        flex-direction: column;
+        height: auto;
+        gap: 0;    
+    }
+    #findUsMap iframe {
+        width: 85%;
+    }
+    #findUsContact div {
+        width: 85%;
+        gap: 0;
+    }
+}

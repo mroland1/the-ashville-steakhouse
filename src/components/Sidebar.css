@@ -1,0 +1,66 @@
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 335px;
+    z-index: 1000;
+    background-color: rgba(24, 36, 47, 0.596);
+    backdrop-filter: blur(5px);
+    transform: translateX(100%); /* Sidebar kezdeti pozíció */
+    transition: transform 0.4s ease-in-out; /* Mozgás sebessége és görbéje */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-left: 1px solid white;
+}
+
+#sidebar.active {
+    transform: translateX(0); /* Eredeti helyére tér vissza */
+}
+
+#sidebar li {
+    width: 100%;
+}
+
+#sidebar a {
+    width: 100%;
+}
+
+a.active {
+    background-color: rgba(16, 25, 33, 0.597);
+    font-weight: bold;
+}
+
+#sidebar ul {
+    width: 50%;
+    font-size: 1.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+
+#sidebar li:hover {
+    background-color: rgba(16, 25, 33, 0.597);
+}
+
+#social li:hover, #sidebar li:first-child:hover {
+    background-color: unset;
+}
+
+#sidebar ul li a{
+    text-align: center;
+    justify-content: flex-start;
+}
+
+
+@media screen and (max-width: 650px) {
+    #sidebar {
+        width: 100%;
+        height: 100%;
+        border-left: 0
+    }
+
+}

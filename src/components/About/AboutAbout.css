@@ -1,0 +1,84 @@
+#aboutAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+#aboutHeading {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 20px;
+}
+
+#aboutAbout div:first-child {
+    width: 50%;
+    line-height: 1.75rem;
+    font-size: 1.2rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+#aboutAbout div:last-child {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#gallery {
+     /* Tölti a teljes szabad helyet */
+    padding: 0;
+}
+
+#aboutAbout div:last-child img {
+    width: 80%;
+    object-fit: cover;
+    border-radius: 40px;
+    border: 2px solid white
+}
+
+#aboutAbout p {
+    padding: 20px
+}
+
+#aboutAbout ul {
+    padding: 40px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#aboutAbout button:first-child {
+    display: none;
+}
+
+#aboutAbout button:last-child {
+    margin-bottom: 20px
+}
+
+@media screen and (max-width: 840px) {
+    #aboutAbout {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #aboutAbout div:last-child {
+        order: 1;
+        width: 100%;
+        height: 300px;
+        padding: 30px;
+    }
+    #aboutAbout div:first-child {
+        order: 2;
+        width: 80%;
+        padding: 10px 0
+    }
+    #aboutAbout button:first-child {
+        display: flex;
+    }
+}

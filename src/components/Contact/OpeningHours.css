@@ -1,0 +1,52 @@
+#openingHours {
+    border-radius: 8px;
+    height: 100%;
+    max-width: 700px;
+    margin: auto;
+    background-color: rgba(24, 36, 47, 0.596);
+    line-height: 1.5rem;
+    padding: 20px;
+}
+
+#homeOpeningHours h2 {
+    border-bottom: 1px solid white;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    width: 50%;
+    font-weight: 200;
+
+}
+
+th {
+    border-bottom: 1px solid white;
+    font-weight: 200;
+}
+
+tr:hover {
+    background-color: rgba(44, 65, 86, 0.596);
+}
+
+tr:last-child td, tr:last-child th {
+    border-bottom: 0
+}
+
+@media screen and (max-width: 650px) {
+    table {
+        font-size: 1.1rem
+    }
+}
