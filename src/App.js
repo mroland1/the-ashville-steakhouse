@@ -12,7 +12,7 @@ import ScrollToTopButton from "./components/ScrollToTopButton";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/the-ashville-steakhouse">
         <Navbar />
         <ScrollToTopButton />
         <Routes>
