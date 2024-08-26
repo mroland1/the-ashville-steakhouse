@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/the-ashville-steakhouse/static/css/main.b8a48d44.css",
-    "main.js": "/the-ashville-steakhouse/static/js/main.1e0b72d3.js",
+    "main.css": "/the-ashville-steakhouse/static/css/main.a4e23547.css",
+    "main.js": "/the-ashville-steakhouse/static/js/main.39f4b0d4.js",
     "static/media/28photo.jpg": "/the-ashville-steakhouse/static/media/28photo.6df368404f825a13766c.jpg",
     "static/media/32photo.jpg": "/the-ashville-steakhouse/static/media/32photo.2068cc71a833d6060c89.jpg",
     "static/media/37photo.jpg": "/the-ashville-steakhouse/static/media/37photo.e33e71a92674e041d779.jpg",
@@ -60,11 +60,11 @@
     "static/media/48photo.jpg": "/the-ashville-steakhouse/static/media/48photo.7980888b99bf18f35a11.jpg",
     "static/media/logo.png": "/the-ashville-steakhouse/static/media/logo.5f6600ff892c3a149299.png",
     "index.html": "/the-ashville-steakhouse/index.html",
-    "main.b8a48d44.css.map": "/the-ashville-steakhouse/static/css/main.b8a48d44.css.map",
-    "main.1e0b72d3.js.map": "/the-ashville-steakhouse/static/js/main.1e0b72d3.js.map"
+    "main.a4e23547.css.map": "/the-ashville-steakhouse/static/css/main.a4e23547.css.map",
+    "main.39f4b0d4.js.map": "/the-ashville-steakhouse/static/js/main.39f4b0d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8a48d44.css",
-    "static/js/main.1e0b72d3.js"
+    "static/css/main.a4e23547.css",
+    "static/js/main.39f4b0d4.js"
   ]
 }
