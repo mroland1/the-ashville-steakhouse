@@ -55,6 +55,29 @@ h3 {
     width: 200px;
 }
 
+.designedBy {
+    border-bottom: 1px solid white;
+    background-color: rgba(24, 36, 47, 0.596);
+    padding: 15px 0;
+}
+
+.designedBy p{
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.756);
+    font-style: italic;
+    padding: 3px;
+}
+
+.designedBy p:last-child {
+    font-size: 0.7rem;
+}
+
+.designedBy a {
+    text-decoration: none;
+    color: inherit;
+}
+
 @media screen and (max-width: 840px) {
     .footer {
         flex-direction: column;
