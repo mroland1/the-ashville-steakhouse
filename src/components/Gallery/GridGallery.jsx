@@ -31,7 +31,7 @@ export default function GridGallery({ customClass }) {
   useEffect(() => {
     function handleResize() {
       if (window.innerWidth <= 840) {
-        setImagesPerPage(8);
+        setImagesPerPage(6);
       } else {
         setImagesPerPage(9);
       }
